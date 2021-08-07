@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>805</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>805</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_2"/>
+    <addaction name="actionSave_as_2"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionRedo"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionBold"/>
+    <addaction name="actionItalic"/>
+    <addaction name="actionUnderline"/>
+    <addaction name="actionFonts"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/add-file.png</normaloff>:/new/prefix1/Assect/add-file.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/folder.png</normaloff>:/new/prefix1/Assect/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave_2">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/save.png</normaloff>:/new/prefix1/Assect/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_as_2">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/save-as.png</normaloff>:/new/prefix1/Assect/save-as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save as</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/cut.png</normaloff>:/new/prefix1/Assect/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/files.png</normaloff>:/new/prefix1/Assect/files.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/paste.png</normaloff>:/new/prefix1/Assect/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/redo.png</normaloff>:/new/prefix1/Assect/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/undo.png</normaloff>:/new/prefix1/Assect/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/info.png</normaloff>:/new/prefix1/Assect/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/exit.png</normaloff>:/new/prefix1/Assect/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionBold">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/bold.png</normaloff>:/new/prefix1/Assect/bold.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionItalic">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/italic.png</normaloff>:/new/prefix1/Assect/italic.png</iconset>
+   </property>
+   <property name="text">
+    <string>Italic</string>
+   </property>
+  </action>
+  <action name="actionUnderline">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/underline.png</normaloff>:/new/prefix1/Assect/underline.png</iconset>
+   </property>
+   <property name="text">
+    <string>Underline</string>
+   </property>
+  </action>
+  <action name="actionFonts">
+   <property name="icon">
+    <iconset resource="Assects.qrc">
+     <normaloff>:/new/prefix1/Assect/font.png</normaloff>:/new/prefix1/Assect/font.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fonts</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Assects.qrc"/>
+ </resources>
+ <connections/>
+</ui>
